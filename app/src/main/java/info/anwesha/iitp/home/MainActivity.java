@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements EventsRecyclerAda
         fragment.show(getSupportFragmentManager(), fragment.getTag());
     }
 
-    @Override
+    /*@Override
     protected void onResume() {
         super.onResume();
         if (PreferenceManager.getDefaultSharedPreferences(this).getBoolean("login_status", false))
@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity implements EventsRecyclerAda
         else navAccount.setTitle("Login/Register");
 
         new Handler().postDelayed(this::updateApp, 1000);
-    }
+    }*/
 
     @Override
     protected void onStart() {

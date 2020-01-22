@@ -52,7 +52,7 @@ public class HomeFragment extends Fragment {
         map.put(R.id.main_pronite_ll, R.id.nav_pronite);
         map.put(R.id.main_event_ll, R.id.nav_events_cat);
         map.put(R.id.main_gallery_ll, R.id.nav_gallery);
-        map.put(R.id.main_login_ll, R.id.nav_account);
+        map.put(R.id.main_sponsor_ll, R.id.nav_sponsors);
 
         for (final Map.Entry<Integer, Integer> pair : map.entrySet()) {
             View mainView = view.findViewById(pair.getKey());

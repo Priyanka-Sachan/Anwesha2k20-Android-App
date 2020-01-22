@@ -122,17 +122,18 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/main_login_ll"
+                android:id="@+id/main_sponsor_ll"
                 android:layout_width="@dimen/ic_width"
                 android:layout_height="@dimen/ic_height"
                 android:layout_weight="1"
-                android:src="@drawable/ic_vpn_key_black_24dp"
+                android:src="@drawable/ic_sponsor"
+                android:tint="#4E342E"
                 android:layout_gravity="center"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/jim_nightshade"
-                android:text="Login"
+                android:text="Sponsors"
                 android:textColor="@color/brown"
                 android:textSize="@dimen/mi_text_size"
                 android:layout_gravity="center"/>

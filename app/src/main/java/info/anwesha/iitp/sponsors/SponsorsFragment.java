@@ -42,16 +42,17 @@ public class SponsorsFragment extends Fragment {
 
         List<SponsorItem> sponsorItems = new ArrayList<>();
 
-        sponsorItems.add(new SponsorItem("Title Sponsor", "https://i.imgur.com/i08F0au.png", "https://www.airtel.in/", "Airtel"));
-        sponsorItems.add(new SponsorItem("EDM Night & Official Music Partner", "https://i.imgur.com/0uHcCTF.jpg ", "https://gaana.com/", "Gaana"));
+        sponsorItems.add(new SponsorItem("Power Sponsor", "https://i.imgur.com/i08F0au.png", "https://www.airtel.in/", "Airtel"));
+        sponsorItems.add(new SponsorItem("Official Media Partner & Title Sponor of Bollywood Night", "https://i.imgur.com/0uHcCTF.jpg ", "https://gaana.com/", "Gaana"));
 
 
         sponsorItems.add(new SponsorItem("Associate Sponsor", "https://i.imgur.com/sM9mfam.jpg", " http://www.yac.bih.nic.in/", "YAC"));
         sponsorItems.add(new SponsorItem("Associate Sponsor", "https://i.imgur.com/uycuJOA.jpg", "http://www.rubanpatliputrahospital.com/", "Ruban"));
         sponsorItems.add(new SponsorItem("Associate Sponsor", "https://i.imgur.com/WCqfwVC.jpg", "http://www.bsedc.bihar.gov.in/", "Beltron"));
 
-        sponsorItems.add(new SponsorItem("Key Partner", "https://i.imgur.com/kLddyyV.jpg", "http://www.bihartourism.gov.in/", "Bihar Tourism"));
-        sponsorItems.add(new SponsorItem("Key Partner", "https://i.imgur.com/fStmMft.png", "http://ncclimited.com/", "NCC"));
+        sponsorItems.add(new SponsorItem("Key Sponsor", "https://i.imgur.com/kLddyyV.jpg", "http://www.bihartourism.gov.in/", "Bihar Tourism"));
+        sponsorItems.add(new SponsorItem("Key Sponsor", "https://i.imgur.com/fStmMft.png", "http://ncclimited.com/", "NCC"));
+        sponsorItems.add(new SponsorItem("Key Sponsor", "https://upload.wikimedia.org/wikipedia/en/5/52/BUIDCO_logo.jpg", "http://www.buidco.in/", "BUIDCO"));
 
 
         sponsorItems.add(new SponsorItem("Media Partner", "https://i.imgur.com/ce0x8MA.jpg", "https://www.radiomirchi.com/", "Radio Mirchi"));
